@@ -1,4 +1,4 @@
-FROM ubuntu:xenial-20210416
+FROM ubuntu:lunar-20230615
 
 # minimal apk dependencies to be safe
 ENV PACKAGES="ca-certificates git redis-server nginx software-properties-common python-software-properties nodejs"
