@@ -1,4 +1,4 @@
-FROM ubuntu:lunar-20230615
+FROM ubuntu:mantic-20240416
 
 # minimal apk dependencies to be safe
 ENV PACKAGES="ca-certificates git redis-server nginx software-properties-common python-software-properties nodejs"
